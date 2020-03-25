@@ -1,37 +1,32 @@
 import React from 'react'
-import { StyleSheet, Text, View, TextInput } from 'react-native'
-
+import { StyleSheet, ScrollView, KeyboardAvoidingView } from 'react-native'
+import Form from './Form'
 export default function App() {
+  const data = {
+    name: 'Michael',
+    lastname: 'Von Herringen',
+    streetAdress: '59, Rue de Rivoli',
+    passportNumber: 'DE 445299',
+    postalCode: '11399',
+    email: 'client@firma.de',
+    country: 'Germany',
+    username: 'MichVonH'
+  }
   return (
-    <View style={styles.container}>
-      <Text style={styles.heading} placeholder="Name">
-        Name
-      </Text>
-      <TextInput style={styles.input} placeholder="Name" />
-      <Text style={styles.heading}>Last name</Text>
-      <TextInput style={styles.input} placeholder="Last name" />
-    </View>
+    <ScrollView style={styles.container}>
+      <Form data={data} />
+      <KeyboardAvoidingView />
+    </ScrollView>
   )
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    paddingTop: 60,
-    paddingLeft: 40,
-    paddingRight: 40
-  },
-  heading: {
-    fontSize: 24,
-    marginBottom: 10,
-    marginTop: 25,
-    color: 'darkgrey'
-  },
-  input: {
-    alignSelf: 'stretch',
-    borderBottomColor: '#e7e7e7',
-    borderBottomWidth: 1,
-    height: 30
+    backgroundColor: 'whitesmoke',
+    marginTop: 30,
+    paddingBottom: 60,
+    paddingLeft: 30,
+    paddingRight: 30
   }
 })
