@@ -8,7 +8,8 @@ npm start
 ### Built with React Native
 
 A nice looking UI, where the customer can update their details.
-The customer is able to see the following data + edit the data 
+The customer is able to see and edit the following data 
+
 - First name
 - Last name 
 - Passport number 
