@@ -27,4 +27,4 @@ For example you cannot change the passport details without going through the
 Know Your Customer. 
 Simple validations such as strength of the password + re-entering the password are implemented.
 
-![https://user-images.githubusercontent.com/36475005/82845449-f21de900-9ee4-11ea-9602-75c82274ef49.jpg]
+!(https://user-images.githubusercontent.com/36475005/82845449-f21de900-9ee4-11ea-9602-75c82274ef49.jpg)
