@@ -1,5 +1,10 @@
 # cool_fut
 
+To run
+```
+npm start
+```
+
 ### Built with React Native
 
 A nice looking UI, where the customer can update their details.
