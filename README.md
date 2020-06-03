@@ -5,6 +5,9 @@ To run
 npm start
 ```
 
+## Features
+Inputs, Validation
+
 ### Built with React Native
 
 A nice looking UI, where the customer can update their details.
