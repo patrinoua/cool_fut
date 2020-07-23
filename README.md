@@ -1,4 +1,6 @@
 # cool_fut
+ 
+A React Native application displaying a list of elements that can be updated.
 
 To run
 ```
